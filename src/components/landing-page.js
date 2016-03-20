@@ -1,7 +1,12 @@
 import React from 'react'
+import Hero from './hero'
 
 export default React.createClass({
   render: function () {
-    return <div className='landing-page'>Hello Macaco Maluco</div>
+    return (
+      <div className='landing-page'>
+        <Hero/>
+      </div>
+    )
   }
 })
