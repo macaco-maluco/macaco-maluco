@@ -1,0 +1,28 @@
+{
+  "name": "macaco-maluco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run develop",
+    "test": "sagui test",
+    "test-watch": "sagui test --watch",
+    "develop": "sagui develop",
+    "build": "sagui build",
+    "dist": "sagui dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macaco-maluco/macaco-maluco.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macaco-maluco/macaco-maluco/issues"
+  },
+  "homepage": "https://github.com/macaco-maluco/macaco-maluco#readme",
+  "devDependencies": {
+    "sagui": "^4.0.0-rc.3"
+  }
+}
