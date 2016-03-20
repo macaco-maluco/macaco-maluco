@@ -1,5 +1,5 @@
 import React from 'react'
-import videPressora from './games/video-pressora.mp4'
+import videPressora from './games/pressora.mp4'
 import imageCinemaFu from './games/cinema-fu.png'
 import goHorseGo from './games/go-horse-go.mp4'
 
