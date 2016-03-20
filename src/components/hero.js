@@ -4,7 +4,7 @@ export default () => {
   return (
     <div className='hero'>
       <h1>Macaco Maluco</h1>
-      <p>incredible games that inspires you</p>
+      <p>A collection of web-based games built on Hackathons!</p>
     </div>
   )
 }
