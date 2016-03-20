@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   background: #ecf0f1;
+  min-width: 960px;
 
   li {
     overflow: hidden;
@@ -18,19 +19,15 @@
     padding: 43px 20px 64px 20px;
     box-sizing: border-box;
 
-    @media screen and (min-width : 990px) {
-      float: left;
-      width: 50%;
-    }
+    float: left;
+    width: 50%;
   }
 
-  .game-video {
+  .game-video, .game-image {
     width: 100%;
 
-    @media screen and (min-width : 990px) {
-      float: left;
-      width: 50%;
-    }
+    float: left;
+    width: 50%;
   }
 
   .actions {
