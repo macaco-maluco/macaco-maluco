@@ -4,12 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npm run develop",
+    "start": "node bin/server.js",
     "test": "sagui test",
     "test-watch": "sagui test --watch",
     "develop": "sagui develop",
     "build": "sagui build",
-    "dist": "sagui dist"
+    "dist": "NODE_ENV=production sagui dist"
   },
   "repository": {
     "type": "git",
@@ -23,11 +23,12 @@
   },
   "homepage": "https://github.com/macaco-maluco/macaco-maluco#readme",
   "devDependencies": {
+    "normalize.css": "^4.0.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
     "sagui": "^4.0.0-rc.3"
   },
   "dependencies": {
-    "normalize.css": "^4.0.0",
-    "react": "^0.14.7",
-    "react-dom": "^0.14.7"
+    "express": "^4.13.4"
   }
 }
