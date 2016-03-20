@@ -1,7 +1,6 @@
-import style from './index.css'
+import React from 'react'
+import { render } from 'react-dom'
+import LandingPage from './components/landing-page'
+import './index.scss'
 
-const div = document.createElement('div')
-div.innerHTML = '<h1>Hello World</h1>'
-div.className = style.component
-
-document.getElementById('macaco-maluco').appendChild(div)
+render(<LandingPage/>, document.getElementById('macaco-maluco'))
