@@ -1,6 +1,7 @@
 import React from 'react'
 import videPressora from './games/video-pressora.mp4'
 import imageCinemaFu from './games/cinema-fu.png'
+import goHorseGo from './games/go-horse-go.mp4'
 
 export default () => {
   return (
@@ -27,6 +28,18 @@ export default () => {
             <a className='play' href='http://cinema-fu.macacomaluco.space/'>Play now!</a>
           </div>
         </section>
+      </li>
+
+      <li>
+        <section className='game-description'>
+          <h1>Go Horse Go!</h1>
+          <p>We are shooting horses! On space!</p>
+          <p>This an awesome sci-fi game! It's mythology is derived from Assassin's Creed and the game-play is heavily influenced by Angry Birds and Pac-Man.</p>
+          <div className='actions'>
+            <a className='play' href='http://go-horse-go.macacomaluco.space/'>Play now!</a>
+          </div>
+        </section>
+        <video className='game-video' src={goHorseGo} loop autoPlay />
       </li>
     </ul>
   )
