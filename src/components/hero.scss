@@ -1,18 +1,19 @@
 .hero {
-  background: #e74c3c;
+  background: #2c3e50;
   color: white;
   overflow: hidden;
   text-align: center;
-  padding: 5vw;
+  padding: 64px 0;
 
   h1 {
     font-weight: lighter;
-    font-size: 8vw;
+    font-size: 35px;
     margin: 0;
   }
 
   p {
-    font-size: 3vw;
-    margin: 0;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 0;
   }
 }

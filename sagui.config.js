@@ -10,10 +10,6 @@ module.exports = {
    */
   pages: ['index'],
 
-  /**
-   * List of Sagui plugins to disable
-   */
-  disabledPlugins: [],
 
   /**
    * Webpack configuration object
@@ -22,16 +18,13 @@ module.exports = {
    * Will ovewrite and extend the default Sagui configuration
    */
   webpackConfig: {
-
-  },
-
-  /**
-   * Karma configuration object
-   * see: https://karma-runner.github.io/0.13/config/configuration-file.html
-   *
-   * Will overwrite and extend the default Sagui configuration
-   */
-  karmaConfig: {
-
+    module: {
+      loaders: [
+        {
+          test: /\.mp4$/,
+          loader: 'url-loader?limit=8192&name=[name]-[hash].[ext]'
+        }
+      ]
+    }
   }
 }
