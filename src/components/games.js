@@ -22,8 +22,8 @@ export default () => {
         <img className='game-image' src={imageCinemaFu} />
         <section className='game-description'>
           <h1>Cinema fu</h1>
-          <p>the connections between movies and stars.</p>
-          <p>A game where you need to find connections between 2 actors and/or movies.</p>
+          <p>The connections between movies and stars.</p>
+          <p>A game where you need to find connections between 2 actors and/or movies. Try to get the least steps possible and share the challenge with your friends.</p>
           <div className='actions'>
             <a className='play' href='http://cinema-fu.macacomaluco.space/'>Play now!</a>
           </div>
