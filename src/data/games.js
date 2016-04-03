@@ -12,6 +12,13 @@ export default [
     video: pressoraVideo,
     mainColor: '#0C4648',
 
+    authors: [
+      'marcioos',
+      'npejo',
+      'pirelenito',
+      'tulios'
+    ],
+
     hackathon: {
       name: 'Node KO',
       edition: '2015',
@@ -27,6 +34,11 @@ export default [
     url: 'http://birinto.macacomaluco.space/',
     video: birintoVideo,
     mainColor: '#2c3e50',
+
+    authors: [
+      'maxcnunes',
+      'pirelenito'
+    ],
 
     hackathon: {
       name: 'Static Showdown',
@@ -44,6 +56,13 @@ export default [
     image: cinemaFuImage,
     mainColor: '#3A212F',
 
+    authors: [
+      'besen',
+      'fnmunhoz',
+      'pirelenito',
+      'RobertoMoura'
+    ],
+
     hackathon: {
       name: 'Node KO',
       edition: '2013',
@@ -57,6 +76,13 @@ export default [
     url: 'http://go-horse-go.macacomaluco.space',
     mainColor: '#212121',
     video: goHorseGoVideo,
+
+    authors: [
+      'besen',
+      'fnmunhoz',
+      'pirelenito',
+      'rodrigomachado'
+    ],
 
     hackathon: {
       name: 'Node KO',
