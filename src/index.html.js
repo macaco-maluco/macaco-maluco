@@ -2,7 +2,7 @@ import React from 'react'
 import { renderToString } from 'react-dom/server'
 import LandingPage from './components/landing-page'
 import games from './data/games'
-import image from 'file!./og-image.png'
+import image from './og-image.png'
 
 module.exports = function ({ htmlWebpackPlugin }) {
   return (`
@@ -20,7 +20,7 @@ module.exports = function ({ htmlWebpackPlugin }) {
         <meta property="og:site_name" content="Macaco Maluco" />
         <meta name="twitter:title" content="Macaco Maluco" />
         <meta name="twitter:description" content="Games built on Hackthons" />
-        <meta property="og:image" content="${image}" />
+        <meta property="og:image" content="http://macacomaluco.space/${image}" />
 
       </head>
       <body>
