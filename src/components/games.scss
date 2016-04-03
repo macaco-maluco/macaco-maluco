@@ -3,42 +3,4 @@
   margin: 0;
   padding: 0;
   background: #ecf0f1;
-  min-width: 960px;
-
-  li {
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-    max-width: 960px;
-    margin: auto;
-  }
-
-  .game-description {
-    width: 100%;
-    margin: auto;
-    padding: 43px 20px 64px 20px;
-    box-sizing: border-box;
-
-    float: left;
-    width: 50%;
-  }
-
-  .game-video, .game-image {
-    width: 100%;
-
-    float: left;
-    width: 50%;
-  }
-
-  .actions {
-    padding-top: 34px;
-    text-align: center;
-  }
-
-  .play {
-    background: #27ae60;
-    color: white;
-    text-decoration: none;
-    padding: 0.5em 2em;
-  }
 }

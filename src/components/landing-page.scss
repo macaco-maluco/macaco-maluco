@@ -1,3 +1,33 @@
 .landing-page {
+  .description {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 64px 32px;
+  }
 
+  footer {
+    text-align: center;
+  }
+
+  .games-built {
+    margin-top: 0;
+  }
+
+  .contributors {
+    margin-top: 64px;
+  }
+
+  .creators {
+    text-align: center;
+    margin-top: 64px;
+  }
+
+  .creator {
+    border-radius: 50px;
+    margin-right: 0.5em;
+  }
+
+  a {
+    color: inherit;
+  }
 }

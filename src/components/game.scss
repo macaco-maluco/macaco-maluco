@@ -1,0 +1,41 @@
+.game {
+  overflow: hidden;
+  color: white;
+  padding: 64px 32px;
+
+  @media only screen and (min-width: 700px) {
+    padding: 128px 32px;
+  }
+
+  h1 {
+    margin-top: 0;
+  }
+
+  .game-video, .game-image {
+    width: 100%;
+
+    @media only screen and (min-width: 700px) {
+      width: 320px;
+      float: left;
+      margin-right: 32px;
+    }
+  }
+
+  .game-tagline {
+    font-size: 1.25em;
+  }
+
+  .play {
+    display: inline-block;
+    background: #27ae60;
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 2em;
+    margin-top: 0.67em;
+  }
+
+  .game-description {
+    max-width: 960px;
+    margin: auto;
+  }
+}

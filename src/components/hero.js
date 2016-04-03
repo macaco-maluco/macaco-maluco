@@ -4,7 +4,11 @@ export default () => {
   return (
     <div className='hero'>
       <h1>Macaco Maluco</h1>
-      <p>A collection of web-based games built on Hackathons!</p>
+      <p>Web-based games built on Hackathons!</p>
+      <div className='hero-actions'>
+        <a href='#games'>Play Now!</a>
+        <a href='https://github.com/macaco-maluco'>Source code</a>
+      </div>
     </div>
   )
 }
