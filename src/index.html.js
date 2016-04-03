@@ -1,6 +1,7 @@
 import React from 'react'
 import { renderToString } from 'react-dom/server'
 import LandingPage from './components/landing-page'
+import games from './data/games'
 
 module.exports = function ({ htmlWebpackPlugin }) {
   return (`
@@ -12,7 +13,7 @@ module.exports = function ({ htmlWebpackPlugin }) {
         <title>Macaco Maluco</title>
       </head>
       <body>
-        <div id="macaco-maluco">${renderToString(<LandingPage/>)}</div>
+        <div id="macaco-maluco">${renderToString(<LandingPage games={games}/>)}</div>
       </body>
     </html>
   `)
