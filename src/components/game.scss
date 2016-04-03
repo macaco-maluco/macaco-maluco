@@ -8,7 +8,9 @@
   }
 
   h1 {
-    margin-top: 0;
+    @media only screen and (min-width: 700px) {
+      margin-top: 0;
+    }
   }
 
   .game-video, .game-image {
