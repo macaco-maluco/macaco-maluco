@@ -1,5 +1,6 @@
 import pressoraVideo from './pressora.mp4'
 import cinemaFuImage from './cinema-fu.png'
+import birintoVideo from './birinto.mp4'
 import goHorseGoVideo from './go-horse-go.mp4'
 
 export default [
@@ -10,6 +11,14 @@ export default [
     url: 'http://pressora.macacomaluco.space/',
     video: pressoraVideo,
     mainColor: '#0C4648'
+  },
+  {
+    name: 'Birinto',
+    shortDescription: 'Birinto is the ultimate maze solving challenge. Get unlimited procedurally generated mazes to solve until the end of the world!',
+    longDescription: 'Test your skills of problem solving and make it to the end before the time runs out.',
+    url: 'http://birinto.macacomaluco.space/',
+    video: birintoVideo,
+    mainColor: '#2c3e50'
   },
   {
     name: 'Cinema fu',
