@@ -1,9 +1,33 @@
 import pressoraVideo from './pressora.mp4'
+import dayOneVideo from './day-one.mp4'
 import cinemaFuImage from './cinema-fu.png'
 import birintoVideo from './birinto.mp4'
 import goHorseGoVideo from './go-horse-go.mp4'
 
 export default [
+  {
+    name: 'Day One',
+    shortDescription: 'Explore and colonize an infinite procedurally generated universe',
+    longDescription: 'You start the game very close to the beginning of time and must fight to survive for as long as you can before the heat death of the universe.',
+    url: 'http://day-one.macacomaluco.space/',
+    video: dayOneVideo,
+    mainColor: '#120740',
+
+    authors: [
+      'xaviervia',
+      'npejo',
+      'pirelenito',
+      'tulios'
+    ],
+
+    hackathon: {
+      name: 'Node KO',
+      edition: '2016',
+      entry: 'https://www.nodeknockout.com/entries/55-batata-frita',
+      leaderboard: 'https://www.nodeknockout.com/entries/all',
+      pitch: 'https://www.youtube.com/watch?v=l-iS5pEy7V8'
+    }
+  },
   {
     name: 'Pressora',
     shortDescription: 'Control battleships remotely while dealing with the latency of space scale',
