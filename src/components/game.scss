@@ -1,6 +1,5 @@
 .game {
   overflow: hidden;
-  color: white;
   padding: 64px 32px;
 
   @media only screen and (min-width: 700px) {
@@ -37,8 +36,8 @@
   }
 
   .pitch {
-    border: 1px solid white;
-    color: white;
+    border: 1px solid #2c3e50;
+    color: #2c3e50;
     display: inline-block;
     text-decoration: none;
     padding: 0.5em 2em;

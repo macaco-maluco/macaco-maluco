@@ -12,7 +12,7 @@ export default [
     longDescription: 'You start the game very close to the beginning of time and must fight to survive for as long as you can before the heat death of the universe.',
     url: 'http://day-one.macacomaluco.space/',
     video: dayOneVideo,
-    mainColor: '#120740',
+    mainColor: '#ecf0f1',
 
     authors: [
       'xaviervia',
@@ -35,7 +35,7 @@ export default [
     longDescription: ' Using a deck of GIF cards, players select cards that match a title suggested by the \'storyteller\' then latter attempt to guess which card the \'storyteller\' selected.',
     url: 'http://giftellers.macacomaluco.space/',
     video: giftellersVideo,
-    mainColor: '#0f1f10',
+    mainColor: '#ffffff',
 
     authors: [
       'pirelenito',
@@ -55,7 +55,7 @@ export default [
     longDescription: 'Pressora is a turn-based multiplayer game where, due to the latencies caused by the massive distances of the solar system, you must program a set of instructions first and them watch the battle unfolds.',
     url: 'http://pressora.macacomaluco.space/',
     video: pressoraVideo,
-    mainColor: '#0C4648',
+    mainColor: '#ecf0f1',
 
     authors: [
       'marcioos',
@@ -78,7 +78,7 @@ export default [
     longDescription: 'Test your skills of problem solving and make it to the end before the time runs out.',
     url: 'http://birinto.macacomaluco.space/',
     video: birintoVideo,
-    mainColor: '#2c3e50',
+    mainColor: '#ffffff',
 
     authors: [
       'maxcnunes',
@@ -99,7 +99,7 @@ export default [
     longDescription: 'A game where you need to find connections between 2 actors and/or movies. Try to get the least steps possible and share the challenge with your friends.',
     url: 'http://cinema-fu.macacomaluco.space/',
     image: cinemaFuImage,
-    mainColor: '#3A212F',
+    mainColor: '#ecf0f1',
 
     authors: [
       'besen',
@@ -119,7 +119,7 @@ export default [
     shortDescription: 'We are shooting horses! On space!',
     longDescription: 'This an awesome sci-fi game! It\'s mythology is derived from Assassin\'s Creed and the game-play is heavily influenced by Angry Birds and Pac-Man.',
     url: 'http://go-horse-go.macacomaluco.space',
-    mainColor: '#212121',
+    mainColor: '#ffffff',
     video: goHorseGoVideo,
 
     authors: [
