@@ -1,6 +1,7 @@
 import pressoraVideo from './pressora.mp4'
 import dayOneVideo from './day-one.mp4'
 import cinemaFuImage from './cinema-fu.png'
+import giftellersVideo from './giftellers.mp4'
 import birintoVideo from './birinto.mp4'
 import goHorseGoVideo from './go-horse-go.mp4'
 
@@ -26,6 +27,26 @@ export default [
       entry: 'https://www.nodeknockout.com/entries/55-batata-frita',
       leaderboard: 'https://www.nodeknockout.com/entries/all',
       pitch: 'https://www.youtube.com/watch?v=l-iS5pEy7V8'
+    }
+  },
+  {
+    name: 'Giftellers',
+    shortDescription: 'A couch card-game to be played with friends',
+    longDescription: ' Using a deck of GIF cards, players select cards that match a title suggested by the \'storyteller\' then latter attempt to guess which card the \'storyteller\' selected.',
+    url: 'http://giftellers.macacomaluco.space/',
+    video: giftellersVideo,
+    mainColor: '#0f1f10',
+
+    authors: [
+      'pirelenito',
+      'tulios'
+    ],
+
+    hackathon: {
+      name: 'Static Showdown',
+      edition: '2016',
+      entry: 'https://2016.staticshowdown.com/entries/macaco-frito',
+      leaderboard: 'https://2016.staticshowdown.com/entries'
     }
   },
   {
