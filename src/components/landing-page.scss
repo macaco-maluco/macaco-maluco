@@ -8,20 +8,20 @@
   footer {
     text-align: center;
     color: white;
+    background: #16222A;
+    padding: 64px 32px;
 
-    p {
-      background: #16222A;
+    p, h1 {
       margin: 0;
-      padding: 1em;
+    }
+
+    h1 {
+      margin-bottom: 64px;
     }
   }
 
   .games-built {
     margin-top: 0;
-  }
-
-  .contributors {
-    margin-top: 64px;
   }
 
   .creators {
