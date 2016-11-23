@@ -17,6 +17,10 @@ export default function Game ({ game }) {
         <p>{game.longDescription}</p>
         <div className='actions'>
           <a className='play' href={game.url}>Play now!</a>
+          {
+            game.hackathon.pitch &&
+              <a className='pitch' href={game.hackathon.pitch}>Demo video</a>
+          }
         </div>
       </section>
     </div>
