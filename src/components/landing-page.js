@@ -11,11 +11,6 @@ export default React.createClass({
     return (
       <div className='landing-page'>
         <Hero/>
-        <div className='description'>
-          <h1 className='games-built'>Games built on Hackthons</h1>
-          <p>Hackthons comes and goes but the games built on those intense 48 hours must live on! <strong>Macaco Maluco</strong> is an endeavor to keep these games alive!</p>
-          <p>All the games bellow are open-source and available for contribution at our <a href='https://github.com/macaco-maluco/'>GitHub organization</a>.</p>
-        </div>
         <Games games={this.props.games}/>
         <footer>
           <h1 className='contributors'>Authors</h1>
