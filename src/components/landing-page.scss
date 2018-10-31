@@ -2,10 +2,11 @@
   footer {
     text-align: center;
     color: white;
-    background: #16222A;
+    background: #e64369;
     padding: 64px 32px;
 
-    p, h1 {
+    p,
+    h1 {
       margin: 0;
     }
 
@@ -25,7 +26,8 @@
 
   .creator {
     border-radius: 50px;
-    margin-right: 0.5em;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
   }
 
   a {

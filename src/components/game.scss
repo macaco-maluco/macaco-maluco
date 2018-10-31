@@ -2,17 +2,14 @@
   overflow: hidden;
   padding: 64px 32px;
 
-  @media only screen and (min-width: 700px) {
-    padding: 128px 32px;
-  }
-
   h1 {
     @media only screen and (min-width: 700px) {
       margin-top: 0;
     }
   }
 
-  .game-video, .game-image {
+  .game-video,
+  .game-image {
     width: 100%;
 
     @media only screen and (min-width: 700px) {
@@ -28,9 +25,9 @@
 
   .play {
     display: inline-block;
-    border: 1px solid #27ae60;
+    border: 1px solid #844f4c;
     text-align: center;
-    background: #27ae60;
+    background: #844f4c;
     color: white;
     text-decoration: none;
     padding: 0.5em;
