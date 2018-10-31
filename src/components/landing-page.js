@@ -19,6 +19,7 @@ export default React.createClass({
           <div className='creators'>
             <a href='https://github.com/besen'><img className='creator' src='https://s.gravatar.com/avatar/e0d8ad378e2447a83cfc7ad3cf948db6?s=50'/></a>
             <a href='https://github.com/xaviervia/'><img className='creator' src='https://s.gravatar.com/avatar/648a1147d8e30f8d18f3d2bff66ecc53?s=50'/></a>
+            <a href='https://github.com/jucomin/'><img className='creator' src='https://s.gravatar.com/avatar/09a99eded613f56eaabae1b386913a0b?s=50'/></a>
             <a href='https://github.com/maxcnunes'><img className='creator' src='https://s.gravatar.com/avatar/2d62e386c079f824fe7f0c8e8e83128b?s=50'/></a>
             <a href='https://github.com/npejo'><img className='creator' src='https://s.gravatar.com/avatar/7b8970e1d573ee403152496257e763ad?s=50'/></a>
             <a href='https://github.com/pirelenito/'><img className='creator' src='https://s.gravatar.com/avatar/d0cb5e66c31a8c5b2ef0b8f57804d946?s=50'/></a>
