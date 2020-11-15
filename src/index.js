@@ -4,4 +4,6 @@ import LandingPage from './components/landing-page'
 import games from './data/games'
 import './index.scss'
 
-render(<LandingPage games={games}/>, document.getElementById('macaco-maluco'))
+console.log('😅', games)
+
+render(<LandingPage games={games} />, document.getElementById('macaco-maluco'))
