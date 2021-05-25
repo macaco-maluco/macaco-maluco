@@ -33,6 +33,9 @@ export default function (props) {
           <a href="https://github.com/marcioos/">
             <img className="creator" src="https://s.gravatar.com/avatar/147cbeb57f3100e97515c8ffb76bff4c?s=50" />
           </a>
+          <a href="https://github.com/marlonicus/">
+            <img className="creator" src="https://secure.gravatar.com/avatar/33eb880254afe7a87908ce5051e7e0d4?s=50" />
+          </a>
           <a href="https://github.com/rodrigomachado">
             <img className="creator" src="https://s.gravatar.com/avatar/a4eeacab47e0c322e81ceec3614e12fc?s=50" />
           </a>
